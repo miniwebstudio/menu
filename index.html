@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Web Studio 🎀 | Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background effects -->
+    <div class="bg">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="grain"></div>
+    </div>
+
+    <!-- Floating bubbles -->
+    <div class="bubbles" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="logo">🎀</span>
+        <span class="brand-text">
+          <b>Mini Web Studio</b>
+          <small>menu dịch vụ</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#pricing">Bảng giá</a>
+        <a href="#samples">Mẫu</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-small" href="#order">Inbox ngay</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#menu">Menu</a>
+      <a href="#pricing">Bảng giá</a>
+      <a href="#samples">Mẫu</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="#order">Inbox ngay 💌</a>
+    </div>
+
+    <main id="home" class="container">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-card">
+          <p class="pill">Mini Web Studio ✨</p>
+          <h1>
+            <span class="soft">Biến mọi dịp đặc biệt</span><br />
+            <span class="strong">thành một trang web mini</span> 💗
+          </h1>
+          <p class="sub">
+            <b>Mini Web Studio 🎀</b> chuyên làm web mini để tặng:
+            <span class="tag">Sinh nhật</span>
+            <span class="tag">Kỷ niệm</span>
+            <span class="tag">Portfolio</span>.
+          </p>
+
+          <div class="hero-highlight">
+            <div class="hi">
+              <span class="emoji">🧸</span>
+              <div>
+                <b>Tiện lợi- gửi được</b>
+                <small>xem được mọi lúc</small>
+              </div>
+            </div>
+            <div class="hi">
+              <span class="emoji">⚡</span>
+              <div>
+                <b>Giao nhanh</b>
+                <small>gói mẫu thường trong 24h</small>
+              </div>
+            </div>
+            <div class="hi">
+              <span class="emoji">🎀</span>
+              <div>
+                <b>Lưu giữ online</b>
+                <small>kỷ niệm không bị trôi</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="btn" href="#pricing">Xem bảng giá 🎀</a>
+            <a class="btn btn-ghost" href="#samples">Xem mẫu luôn ✨</a>
+          </div>
+
+          <div class="marquee" aria-label="text chạy">
+            <div class="track">
+              <span
+                >🎂 Web sinh nhật • 💗 Web kỷ niệm • 💼 Portfolio • Thiệp mời •
+                Quà độc quyền •</span
+              >
+              <span
+                >🎂 Web sinh nhật • 💗 Web kỷ niệm • 💼 Portfolio • 🎀 Mini Web
+                Studio • Link xinh • Quà độc quyền •</span
+              >
+            </div>
+          </div>
+
+          <p class="note">
+            “Studio rất nhiệt tình và sẽ luôn tôn trọng cảm xúc của bạn, nên bạn
+            đừng ngại ngần nhé!<33 💌”
+          </p>
+        </div>
+
+        <div class="hero-side">
+          <div class="mock">
+            <div class="mock-top">
+              <span class="dot d1"></span><span class="dot d2"></span
+              ><span class="dot d3"></span>
+              <small>ministudio.link/for-you</small>
+            </div>
+            <div class="mock-body">
+              <h3>💗 Dear you…</h3>
+              <p>
+                “Mình muốn làm một món quà không đụng hàng… mở link là thấy cả
+                bầu trời kỷ niệm.”
+              </p>
+              <div class="chips">
+                <span>timeline</span>
+                <span>album</span>
+                <span>love letter</span>
+                <span>cute effect</span>
+              </div>
+              <div class="mock-btns">
+                <button class="mock-action" data-go="#samples">Open 💌</button>
+                <button class="mock-action" data-go="#album">Scroll ✨</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="trust">
+            <div class="trust-item">
+              <b>Giá rõ ràng</b><small>không phát sinh</small>
+            </div>
+            <div class="trust-item">
+              <b>Xem mẫu trước</b><small>chọn cái hợp vibe</small>
+            </div>
+            <div class="trust-item">
+              <b>Hỗ trợ chỉnh</b><small>để đúng ý bạn</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MENU SERVICES -->
+      <section id="menu" class="section">
+        <div class="section-title">
+          <h2>Menu dịch vụ 🎀</h2>
+          <p>Chọn đúng nhu cầu của bạn là studio làm đúng vibe liền.</p>
+        </div>
+
+        <div class="grid-4">
+          <article class="card">
+            <div class="card-icon">🎂</div>
+            <h3>Web Sinh Nhật</h3>
+            <p>
+              Quà độc quyền: thư + ảnh + hiệu ứng cute. Mở link là “rụng tim”.
+            </p>
+            <ul class="mini">
+              <li>Chạy chữ chúc mừng</li>
+              <li>Album ảnh</li>
+              <li>Nền pastel/romantic</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💗</div>
+            <h3>Web Kỷ Niệm</h3>
+            <p>
+              Timeline câu chuyện + thư dài. Món quà làm người nhận nhớ rất lâu.
+            </p>
+            <ul class="mini">
+              <li>Timeline ngày quen nhau</li>
+              <li>Thư cuộn / phong bì</li>
+              <li>Vibe nhẹ nhàng</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💼</div>
+            <h3>Portfolio</h3>
+            <p>
+              Trang giới thiệu bản thân/ dự án. Gọn - sạch - xịn - chuyên
+              nghiệp.
+            </p>
+            <ul class="mini">
+              <li>Giới thiệu + kỹ năng</li>
+              <li>Show dự án</li>
+              <li>Form liên hệ</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-icon">💒</div>
+            <h3>Thiệp cưới / Thiệp mời</h3>
+            <p>
+              Dành cho khách ở xa 🎀 Gửi link thiệp qua Facebook/Zalo cực tiện,
+              đẹp sang và không lo thất lạc.
+            </p>
+            <ul class="mini">
+              <li>Thông tin lễ cưới / tiệc</li>
+              <li>Bản đồ Google Maps</li>
+              <li>Album ảnh cô dâu chú rể</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section id="pricing" class="section">
+        <div class="section-title">
+          <h2>Bảng giá 💸</h2>
+          <p>Giá mini nhưng trải nghiệm “đỉnh vibe”. Chọn gói phù hợp nha 🎀</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price-card">
+            <div class="badge">Hot nhất ✨</div>
+            <h3>Gói mẫu có sẵn</h3>
+            <p class="price">
+              <span class="money">49k</span>
+              <span class="old">59k</span>
+              <small class="promo">Khai trương 🎀</small>
+            </p>
+
+            <p class="desc">
+              Dành cho bạn muốn <b>nhanh - rẻ - xinh</b>: chọn mẫu-> gửi ảnh +
+              lời chúc -> studio làm xong gửi lại bạn.
+            </p>
+
+            <ul class="check">
+              <li>1 trang web theo mẫu</li>
+              <li>5–10 ảnh + lời chúc</li>
+              <li>Hiệu ứng cute (tim/bong bóng/chạy chữ)</li>
+              <li>Xuất link gửi người nhận</li>
+              <li>Hỗ trợ tạo mã qr miễn phí</li>
+              <li>Hỗ trợ chỉnh 1–2 lần</li>
+            </ul>
+            <div class="valueLine">
+              <b>Giá trị nhận được:</b> quà tinh tế hơn thiệp ảnh, mở liền là
+              thấy kỷ niệm.
+            </div>
+
+            <a class="btn w100" href="#samples">Xem mẫu gói 49k 🎀</a>
+            <p class="hint">👉 Cách đặt: chọn mẫu → inbox “Mẫu số …”</p>
+          </article>
+
+          <article class="price-card premium">
+            <div class="badge premium">Custom ✨</div>
+            <h3>Gói thiết kế theo ý tưởng</h3>
+            <p class="price">
+              <span class="money">79k</span>
+              <span class="old">99k</span>
+              <small class="promo">Khai trương ✨</small>
+            </p>
+            <p class="desc">
+              Bạn có idea riêng? Studio tư vấn concept 1–1 và làm đúng gu của
+              bạn. Studio sẽ cố gắng thực hiện đúng theo ý bạn.
+            </p>
+
+            <ul class="check">
+              <li>Tư vấn concept / phối màu / font</li>
+              <li>Làm theo câu chuyện riêng</li>
+              <li>Thêm section đặc biệt (timeline, album, thư…)</li>
+              <li>Hiệu ứng theo yêu cầu</li>
+              <li>Chăm sóc sửa theo mức custom</li>
+            </ul>
+
+            <a class="btn btn-ghost w100" href="#order"
+              >Inbox để bàn chi tiết 💌</a
+            >
+            <p class="hint">
+              📌 Gói này cần trao đổi, studio báo giá rõ ràng theo ý tưởng.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SAMPLES -->
+      <section id="samples" class="section">
+        <div class="section-title">
+          <h2>Mẫu sản phẩm 🎀</h2>
+          <p>Gói 49k chọn mẫu ở đây. Bấm xem mẫu để mở link nha ✨</p>
+        </div>
+
+        <div class="tabs">
+          <button class="tab active" data-tab="birthday">🎂 Sinh nhật</button>
+          <button class="tab" data-tab="anni">💗 Kỷ niệm</button>
+          <button class="tab" data-tab="pf">💼 Portfolio</button>
+          <button class="tab" data-tab="wedding">
+            💒 Thiệp cưới, Thiệp mời
+          </button>
+        </div>
+
+        <!-- Tab content -->
+        <div class="tab-panels">
+          <div class="panel show" id="birthday">
+            <div class="sample-grid">
+              <!-- === THAY LINK MẪU Ở ĐÂY === -->
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 01</span>
+                <b>Birthday Pastel</b>
+                <small>cute + chạy chữ</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 02</span>
+                <b>Cake & Balloons</b>
+                <small>vui tươi</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 03</span>
+                <b>Letter Style</b>
+                <small>thư + ảnh</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 04</span>
+                <b>Sweet Minimal</b>
+                <small>nhẹ nhàng</small>
+              </a>
+            </div>
+          </div>
+
+          <div class="panel" id="anni">
+            <div class="sample-grid">
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 01</span>
+                <b>Timeline Love</b>
+                <small>câu chuyện</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 02</span>
+                <b>Envelope Letter</b>
+                <small>phong bì</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 03</span>
+                <b>Photo Album</b>
+                <small>album + nhạc</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 04</span>
+                <b>Soft Romantic</b>
+                <small>lụi tim</small>
+              </a>
+            </div>
+          </div>
+
+          <div class="panel" id="pf">
+            <div class="sample-grid">
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 01</span>
+                <b>Clean Portfolio</b>
+                <small>gọn - sạch</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 02</span>
+                <b>Creative</b>
+                <small>cá tính</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 03</span>
+                <b>Minimal CV</b>
+                <small>tinh tế</small>
+              </a>
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 04</span>
+                <b>Project Showcase</b>
+                <small>show dự án</small>
+              </a>
+            </div>
+          </div>
+          <div class="panel" id="wedding">
+            <div class="sample-grid">
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 01</span>
+                <b>Wedding Pastel</b>
+                <small>thiệp link • sang</small>
+              </a>
+
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 02</span>
+                <b>Elegant Minimal</b>
+                <small>tinh tế • nhẹ</small>
+              </a>
+
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 03</span>
+                <b>Photo Wedding</b>
+                <small>album cô dâu chú rể</small>
+              </a>
+
+              <a class="sample" href="https://example.com" target="_blank">
+                <span class="num">Mẫu 04</span>
+                <b>Luxury Invite</b>
+                <small>vibe sang</small>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <p>
+            💌 <b>Tip đặt hàng nhanh:</b> Chụp màn hình mẫu bạn thích + inbox
+            studio:
+            <span class="code">“Mẫu (nhóm) - số … / Gói 49k”</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ORDER / CTA -->
+      <section id="order" class="section order">
+        <div class="order-card">
+          <h2>Inbox studio để đặt web 💌</h2>
+          <p>
+            Bạn chỉ cần gửi: <b>tên người nhận + ảnh + lời chúc</b> (hoặc mình
+            viết giúp) 🎀 Studio sẽ làm web đúng vibe và gửi link cho bạn.
+          </p>
+
+          <div class="order-actions">
+            <!-- THAY LINK INBOX Ở ĐÂY -->
+            <a
+              class="btn"
+              href="https://www.tiktok.com/@yourusername"
+              target="_blank"
+              >Inbox TikTok 🎀</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://www.facebook.com/messages/t/yourpage"
+              target="_blank"
+              >Inbox Facebook ✨</a
+            >
+          </div>
+
+          <div class="order-mini">
+            <div><b>✅ Rõ ràng</b><small>giá & mẫu</small></div>
+            <div><b>✅ Uy tín</b><small>xem mẫu trước</small></div>
+            <div><b>✅ Cute</b><small>đúng vibe</small></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section">
+        <div class="section-title">
+          <h2>Câu hỏi thường gặp 🧁</h2>
+          <p>Gỡ lo cho bạn trước khi đặt nha 🎀</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>
+              Web có lưu được lâu không? Mình có sửa được không?
+            </summary>
+            <p>
+              Web sẽ lưu online lâu dài, ổn định (mở link là xem được). Studio
+              cũng hỗ trợ <b>chỉnh sửa nội dung/ thêm</b> (ảnh/tên/lời chúc).
+              Studio cũng hỗ trợ 1-2 lần, gói theo ý tưởng thì chỉnh theo mức
+              custom. Studio luôn báo rrox trước khi tính phí chỉnh sửa✨
+            </p>
+          </details>
+
+          <details>
+            <summary>Mình cần gửi gì để studio làm web?</summary>
+            <p>
+              Bạn chỉ cần: ảnh + tên + lời chúc và mong muốn về trang web của
+              bạn như thế nào. Nếu chưa biết viết, studio có thể giúp bạn viết
+              lời chúc luôn 💗, studio sẽ tư vấn để đúng gu mà bạn thích.
+            </p>
+          </details>
+
+          <details>
+            <summary>Bao lâu nhận được web?</summary>
+            <p>
+              Gói 49k thường nhanh trong 24h (tuỳ số lượng khách). Gói 79k sẽ
+              trao đổi theo độ custom 🎀
+            </p>
+          </details>
+
+          <details>
+            <summary>Có được chỉnh sửa không?</summary>
+            <p>
+              Có nha. Studio hỗ trợ chỉnh 1–2 lần để đúng ý (đối với gói mẫu).
+              Gói custom sẽ theo mức độ yêu cầu ✨
+            </p>
+          </details>
+
+          <details>
+            <summary>Mình có thể đặt đúng vibe mình thích không?</summary>
+            <p>
+              Có luôn. Bạn chỉ cần nói vibe: cute/romantic/minimal/cá tính… là
+              studio phối theo 🎀
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Mini Web Studio 🎀 • Made with love 💗</p>
+        <p class="footer-mini">“Một chiếc link nhỏ — một cảm xúc lớn.”</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
